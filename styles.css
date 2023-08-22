@@ -1,0 +1,34 @@
+
+body {
+    background-color: #f4f4f4;
+}
+#banner {
+    background-color: #ffcc99;
+    padding: 50px 0;
+    text-align: center;
+}
+#contenido {
+    display: flex;
+    margin-top: 50px;
+}
+#nuestros-afiliados {
+    background-color: #ffffff;
+    width: 30%;
+    padding: 50px;
+}
+.cuadro-afiliado {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#productos {
+    width: 70%;
+    padding: 50px;
+}
+.cuadro-producto {
+    display: flex;
+    margin-bottom: 20px;
+}
+.cuadro-producto img {
+    max-width: 100px;
+    margin-right: 20px;
+}
