@@ -80,50 +80,37 @@
         </div>
       </section>
 
-      <section id="productos">
+      <section id="productos" class="py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <!-- Primer cuadro producto (imagen a la izquierda, texto a la derecha) -->
-              <div class="cuadro-producto">
-                <img
-                  src="./img/Aromatizante.jpeg"
-                  alt="Producto 1"
-                  class="img-fluid"
-                />
-                <p>Descripción del Producto 1</p>
-              </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="./img/Aromatizante.jpeg" alt="Producto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre del Producto 1</h5>
+                            <p class="card-text">Breve descripción del Producto 1.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary btn-block">$15</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="./img/limpia areneros.jpeg" alt="Producto 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre del Producto 2</h5>
+                            <p class="card-text">Breve descripción del Producto 2.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary btn-block">$25</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repetir esta estructura para más productos -->
             </div>
-            <div class="col-md-6">
-              <!-- Segundo cuadro producto (texto a la izquierda, imagen a la derecha) -->
-              <div class="cuadro-producto">
-                <p>Descripción del Producto 2</p>
-                <img
-                  src="./img/limpia areneros.jpeg"
-                  alt="Producto 2"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <!-- Primer cuadro producto (imagen a la izquierda, texto a la derecha) -->
-              <div class="cuadro-producto">
-                <img src="producto-1.jpg" alt="Producto 1" class="img-fluid" />
-                <p>Descripción del Producto 1</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <!-- Segundo cuadro producto (texto a la izquierda, imagen a la derecha) -->
-              <div class="cuadro-producto">
-                <p>Descripción del Producto 2</p>
-                <img src="producto-2.jpg" alt="Producto 2" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-          <!-- Repetir esta estructura para los siguientes cuadros de productos -->
-          <!-- ... -->
         </div>
-      </section>
+    </section>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
