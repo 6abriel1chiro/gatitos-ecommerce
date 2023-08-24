@@ -1,34 +1,64 @@
-
 body {
     background-color: #f4f4f4;
 }
+
 #banner {
     background-color: #ffcc99;
     padding: 50px 0;
     text-align: center;
 }
+
 #contenido {
     display: flex;
     margin-top: 50px;
+
 }
+
 #nuestros-afiliados {
     background-color: #ffffff;
     width: 30%;
     padding: 50px;
+    position: fixed;
+    flex: auto;
+    overflow-y: auto;
 }
+
 .cuadro-afiliado {
     text-align: center;
     margin-bottom: 20px;
 }
+
 #productos {
     width: 70%;
     padding: 50px;
+    margin-left: 30%; /* Ajustar el margen izquierdo para dar espacio a la sección fija */
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se coloquen en filas */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
 }
+
 .cuadro-producto {
     display: flex;
+    align-items: stretch; /* Hace que los cuadros tengan la misma altura */
     margin-bottom: 20px;
 }
+
 .cuadro-producto img {
-    max-width: 100px;
+    width: 100px;
+    height: auto;
     margin-right: 20px;
+}
+
+.producto-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajusta el tamaño mínimo de los cuadros de producto */
+.producto-info h5,
+.producto-info p,
+.producto-info button {
+    margin: 0;
+    padding: 5px;
 }
