@@ -1,64 +1,77 @@
+.carousel-inner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 body {
-    background-color: #f4f4f4;
+  background-color: #003366;
+}
+.icon {
+  width: 48px;
+  height: 48px;
 }
 
 #banner {
-    background-color: #ffcc99;
-    padding: 50px 0;
-    text-align: center;
+  background-color: #ffcc99;
+  padding: 50px 0;
+  text-align: center;
 }
 
 #contenido {
-    display: flex;
-    margin-top: 50px;
-
+  display: flex;
+  margin-top: 50px;
+}
+#nuestros-afiliados {
+  background-color: #ffffff;
+  width: 25%;
 }
 
-#nuestros-afiliados {
-    background-color: #ffffff;
-    width: 30%;
-    padding: 50px;
-    position: fixed;
-    flex: auto;
-    overflow-y: auto;
+#nuestros-afiliados-right {
+  background-color: #ffffff;
+  width: 25%;
 }
 
 .cuadro-afiliado {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.cuadro-afiliado-r {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: small;
+  background-color: #f4f4f4;
 }
 
 #productos {
-    width: 70%;
-    padding: 50px;
-    margin-left: 30%; /* Ajustar el margen izquierdo para dar espacio a la sección fija */
-    display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se coloquen en filas */
-    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se coloquen en filas */
+  justify-content: space-between; /* Distribuye los elementos de manera uniforme */
 }
 
 .cuadro-producto {
-    display: flex;
-    align-items: stretch; /* Hace que los cuadros tengan la misma altura */
-    margin-bottom: 20px;
+  display: flex;
+  align-items: stretch; /* Hace que los cuadros tengan la misma altura */
+  margin-bottom: 20px;
 }
 
 .cuadro-producto img {
-    width: 100px;
-    height: auto;
-    margin-right: 20px;
+  width: 100px;
+  height: auto;
 }
 
 .producto-info {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Ajusta el tamaño mínimo de los cuadros de producto */
 .producto-info h5,
 .producto-info p,
 .producto-info button {
-    margin: 0;
-    padding: 5px;
+  margin: 0;
+  padding: 5px;
 }
