@@ -95,3 +95,23 @@ padding: 20px;
     position: sticky;
     top: 100px;
 }
+
+.img-fluid {
+  max-width: 200px; /* Tamaño máximo deseado */
+  height: auto; /* Mantener la proporción de la imagen */
+}
+
+.img-fluid-r {
+  max-width: 330px; /* Tamaño máximo deseado */
+  height: auto; /* Mantener la proporción de la imagen */
+}
+
+/* Estilos para pantallas más pequeñas (como dispositivos móviles) */
+@media (max-width: 800px) {
+  .img-fluid {
+      max-width: 50px; /* Tamaño máximo para pantallas pequeñas */
+  }
+  .img-fluid-r {
+    max-width: 75px; /* Tamaño máximo para pantallas pequeñas */
+}
+}
